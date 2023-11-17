@@ -5,9 +5,44 @@ body {
 }
 
 img {
-  border-radius: 60%;
+  border-radius: 10%;
+  margin-left: 2.5rem;
 }
 
-article {
+.ART {
   float: right;
+  text-align: center;
+  width: 28rem;
+  border: 1.5px solid #eebfcb;
+  background-color: #eebfcb;
+}
+
+h1 {
+  color: #072d46;
+}
+h2 {
+  color: #702537;
+  line-height: 1;
+}
+h3 {
+  color: #702537;
+}
+
+.GAUCHE {
+  display: flex;
+  margin-left: 1rem;
+  padding: 10px;
+  border: 7x solid #f0194f75;
+  background-color: #eebfcb;
+  display: flex;
+  justify-content: space-between;
+}
+.DROITE {
+  display: flex;
+  border: 0x solid #eebfcb;
+  margin-left: 1.5rem;
+  padding: 10px;
+  background-color: #eebfcb;
+  display: flex;
+  justify-content: space-between;
 }
