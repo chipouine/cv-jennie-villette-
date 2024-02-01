@@ -9,12 +9,16 @@ img {
   margin-left: 2.5rem;
 }
 
-.ART {
+.art {
   float: right;
   text-align: center;
   width: 28rem;
   border: 1.5px solid #eebfcb;
   background-color: #eebfcb;
+}
+
+.pack {
+  display: flex;
 }
 
 h1 {
@@ -28,21 +32,29 @@ h3 {
   color: #702537;
 }
 
-.GAUCHE {
+.gauche {
   display: flex;
   margin-left: 1rem;
   padding: 10px;
-  border: 7x solid #f0194f75;
   background-color: #eebfcb;
-  display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  flex: 0 1 25%;
 }
-.DROITE {
+.droite {
+  flex: 0 1 75%;
+  flex-direction: column;
   display: flex;
-  border: 0x solid #eebfcb;
   margin-left: 1.5rem;
   padding: 10px;
   background-color: #eebfcb;
   display: flex;
   justify-content: space-between;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  color: black;
 }
