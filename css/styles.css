@@ -1,8 +1,8 @@
-#commentaire body {
+body {
   background-color: #f5d8e2;
   color: rgb(0, 0, 0);
   font-family: "Times New Roman", Times, serif;
-}
+
 
 img {
   border-radius: 10%;
@@ -19,6 +19,7 @@ img {
 
 .pack {
   display: flex;
+  justify-content: space-evenly;
 }
 
 h1 {
@@ -41,7 +42,7 @@ h3 {
   flex: 0 1 25%;
 }
 .droite {
-  flex: 0 1 75%;
+  flex: 0 1 35%;
   flex-direction: column;
   display: flex;
   margin-left: 1.5rem;
